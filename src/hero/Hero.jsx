@@ -10,7 +10,7 @@ const Hero = () => {
         className="absolute top-0 left-0 w-full h-full object-cover"
         src="/earth.webm"
         autoPlay
-        loop
+      loop
         muted
       ></video>
 
