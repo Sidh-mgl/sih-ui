@@ -4,14 +4,14 @@ import "./Quiz.css";
 const quizData = [
   {
     title: "Leaderboards & leagues",
-    img: "/one.webp", 
+    img: "/four.webp", 
     desc: "Compete with others and climb the ranks!",
     bgColor: "#e5f1fc",
     overlayColor: "#1e3a8a" // Darkest version of blue theme
   },
   {
     title: "Points",
-    img: "/two.webp",
+    img: "/six.webp",
     desc: "Earn points by completing sustainable actions.", 
     bgColor: "#4A90E2",
     textColor: "white",
@@ -19,7 +19,7 @@ const quizData = [
   },
   {
     title: "Streaks",
-    img: "/three.webp",
+    img: "/five.webp",
     desc: "Keep your streak alive and stay motivated!",
     bgColor: "#2D5A47",
     textColor: "white",
@@ -27,21 +27,21 @@ const quizData = [
   },
   {
     title: "Missions", 
-    img: "/four.webp",
+    img: "/three.webp",
     desc: "Complete exciting missions every week.",
     bgColor: "#F3E8FF",
     overlayColor: "#581c87" // Darkest version of purple
   },
   {
     title: "Quizzes",
-    img: "/five.webp", 
+    img: "/one.webp", 
     desc: "Test your knowledge with fun quizzes.",
     bgColor: "#E8F4FF",
     overlayColor: "#1e3a8a" // Darkest version of blue
   },
   {
     title: "Teams",
-    img: "/six.webp",
+    img: "/two.webp",
     desc: "Collaborate with others in teams.",
     bgColor: "#fff3ea",
     overlayColor: "#92400e" // Darkest version of orange/amber
@@ -51,7 +51,7 @@ const quizData = [
 const Quiz = () => {
   return (
     <div>
-        <h1 className="text-center text-8xl capitalize">what are we offering </h1>
+        <h1 className="text-center text-8xl capitalize mt-30 mb-10">what are we offering </h1>
         <div className="quiz-container mt-10">
       {quizData.map((item, index) => (
         <div 

@@ -20,7 +20,7 @@ const DEFAULT_ITEMS = [
   },
   {
     label: 'Contact',
-    href: '#',
+    href: '/contact',
     ariaLabel: 'Contact',
     rotation: -8,
     hoverStyles: { bgColor: '#8b5cf6', textColor: '#ffffff' }

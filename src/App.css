@@ -1,0 +1,122 @@
+.container {
+    max-width: 2000px;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    padding: 4rem 3rem;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #c9e0f8;
+    justify-content: center;
+    width: 1300px;
+
+}
+
+.main-title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #2d3748;
+    letter-spacing: -0.025em;
+}
+
+.highlight {
+    background: linear-gradient(135deg, #ff6b9d, #ff8fab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 0.25rem 1rem;
+    border: 3px solid #ff6b9d;
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: 0.5rem;
+    position: relative;
+}
+
+.description {
+    font-size: 1.25rem;
+    color: #4a5568;
+    margin-bottom: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+}
+
+.description strong {
+    color: #2d3748;
+    font-weight: 600;
+}
+
+.contact-btn {
+    background: linear-gradient(135deg, #3182ce, #2b77cb);
+    color: white;
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(49, 130, 206, 0.3);
+    text-transform: none;
+    letter-spacing: 0.025em;
+}
+
+.contact-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(49, 130, 206, 0.4);
+    background: linear-gradient(135deg, #2c7cc4, #2563eb);
+}
+
+.contact-btn:active {
+    transform: translateY(-1px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2.5rem;
+    }
+
+    .content {
+        padding: 2.5rem 2rem;
+        margin: 1rem;
+    }
+
+    .description {
+        font-size: 1.125rem;
+    }
+
+    .highlight {
+        display: inline;
+        padding: 0.125rem 0.75rem;
+        margin-left: 0.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 2rem;
+    }
+
+    .content {
+        padding: 2rem 1.5rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .contact-btn {
+        padding: 0.875rem 2.5rem;
+        font-size: 1rem;
+    }
+}
