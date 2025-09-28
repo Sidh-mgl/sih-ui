@@ -51,7 +51,7 @@ const quizData = [
 const Quiz = () => {
   return (
     <div>
-        <h1 className="text-center text-8xl capitalize mt-30 mb-10">what are we offering </h1>
+        <h1 className="text-center text-8xl capitalize mt-10 mb-30">what are we offering </h1>
         <div className="quiz-container mt-10">
       {quizData.map((item, index) => (
         <div 

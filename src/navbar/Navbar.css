@@ -1,3 +1,16 @@
+.navbar-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 97; /* Below .bubble-menu-items */
+  background: rgba(23, 23, 23, 0.50); /* Semi-transparent dark */
+  backdrop-filter: blur(8px); 
+  pointer-events: auto;
+  transition: background 0.3s;
+}
+
+
+
+
 .bubble-menu {
   left: 0;
   right: 0;
@@ -24,7 +37,7 @@
   width: var(--bubble-size);
   height: var(--bubble-size);
   border-radius: 50%;
-  background: #fff;
+  background: black;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
   display: inline-flex;
   align-items: center;

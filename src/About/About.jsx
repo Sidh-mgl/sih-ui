@@ -6,27 +6,28 @@ const About = () => {
   const cardsData = [
     {
       id: 1,
-      title: "Creative Solutions",
-      description: "Innovative approaches to modern web development challenges. We focus on user-centric design and cutting-edge technologies to deliver exceptional digital experiences.",
-      image: "https://images.unsplash.com/photo-1620207418302-439b387441b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=100"
+      title: "Overview",
+      description: "Our PWA transforms sustainability education in Indian schools and colleges. It offers AI-personalized, gamified quests with real-world applications, boosting student engagement and environmental awareness. Aligned with NEP 2020 and SDGs, our platform makes eco-learning exciting, memorable, and impactful.",
+      image: "/3.jpg"
+   
     },
     {
       id: 2,
-      title: "Digital Innovation",
-      description: "Transforming ideas into reality through advanced technology stacks. Our expertise spans across multiple frameworks and platforms for comprehensive solutions.",
-      image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=100"
+      title: "Key Features",
+      description: "Our platform uses AI to create personalized learning paths based on student location (e.g., Chandigarh's air quality). It features gamified eco-challenges like quizzes, photo-verified tasks (waste segregation), and Web AR (virtual tree planting), rewarding students with eco-points, badges, and leaderboard rankings. Smart tools include peer forums, performance dashboards, offline mode, and a carbon footprint calculator.",
+      image: "/2.jpg"
     },
     {
       id: 3,
-      title: "User Experience",
-      description: "Crafting intuitive interfaces that prioritize accessibility and engagement. Every interaction is designed to provide seamless and meaningful user journeys.",
-      image: "https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=100"
+      title: "Rewards & Recognition",
+      description: "Students earn digital badges and certificates as rewards for completing challenges, which they can share within the community or with partner NGOs to showcase their environmental contributions. The platform is built using a modern web-only tech stack, ensuring fast, responsive, and accessible experiences across devices.",
+      image: "1.jpg"
     },
     {
       id: 4,
-      title: "Future Vision",
-      description: "Building tomorrow's digital landscape today. We embrace emerging technologies and methodologies to stay ahead of the curve in rapid technological evolution.",
-      image: "https://images.unsplash.com/photo-1518709268805-72e93fbc5057?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=100"
+      title: "User Interface ",
+      description: "Our platform features a vibrant, eco-themed design with a green and blue palette, an interactive India map dashboard, swipeable challenge cards, and animated progress indicators. Built mobile-first and fully responsive, it is highly accessible with support for both Hindi and English, dark mode, and voice commands. Engaging micro-interactions, like confetti animations for earning rewards, create a gamified experience designed to boost student engagement. This combination of a polished, interactive, and accessible user interface makes our platform a standout solution for competitions like SIH.",
+      image: "3.jpg"
     }
   ];
 

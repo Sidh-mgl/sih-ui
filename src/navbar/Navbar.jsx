@@ -150,11 +150,11 @@ export default function Navbar({
   }, [isMenuOpen, menuItems]);
 
   return (
-    <>
+    <div>
       <nav className={containerClassName} style={style} aria-label="Main navigation">
-        <div className="bubble logo-bubble" aria-label="Logo" style={{ background: menuBg }}>
-          <span className="logo-content">
-            {typeof logo === 'string' ? <img src={logo} alt="Logo" className="bubble-logo" /> : logo}
+        <div className="bubble logo-bubble bg-black" aria-label="Logo">
+          <span className="logo-content bg-black">
+            <img src="/logo.jpg" alt="logo" className=' object-cover w-full bg-black' width={1500} height={1000} />
           </span>
         </div>
 
@@ -209,7 +209,7 @@ export default function Navbar({
           </ul>
         </div>
       )}
-    </>
+    </div>
   );
 }
 

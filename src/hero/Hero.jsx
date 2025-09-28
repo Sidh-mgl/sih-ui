@@ -4,11 +4,11 @@ import {Link} from "react-router-dom"
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className="relative w-full h-screen overflow-hidden" >
       {/* Background video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="/earth.webm"
+        src="/pop.mp4"
         autoPlay
         loop
         muted
@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-black/40"></div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6 md:px-12 lg:px-24">
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6 md:px-12 lg:px-24" data-aos="fade-down"  data-aos-delay="1900">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
