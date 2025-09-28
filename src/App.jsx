@@ -34,11 +34,11 @@ const App = () => {
         <Route path="/" element={
           <>
             <Hero />
-            <Textabout />
+            <About />
             <Textscroll />
             <ScrollVelocity />
             <Quiz />
-            <About />
+            <Textabout />
             <div className="container flex justify-center mt-20 ">
               <div className="content justify-center bg-blue-200">
                 <h1 className="main-title capitalize">

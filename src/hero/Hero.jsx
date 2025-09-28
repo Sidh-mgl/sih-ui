@@ -25,7 +25,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Turn Learning into Action
+            Turn <span className="text-green-500">Learning</span> into Action
           </h1>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
             Gamified Environmental Education for Every Student!           </h1>

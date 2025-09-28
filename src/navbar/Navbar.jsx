@@ -170,13 +170,23 @@ export default function Navbar({
           <span className="menu-line short" style={{ background: menuContentColor }} />
         </button>
       </nav>
-      {showOverlay && (
-        <div
-          ref={overlayRef}
-          className={`bubble-menu-items ${useFixedPosition ? 'fixed' : 'absolute'}`}
-          aria-hidden={!isMenuOpen}
-        >
-          <ul className="pill-list" role="menu" aria-label="Menu links">
+      <div>
+    {/* Add backdrop blur overlay */}
+    {showOverlay && (
+      <div className="navbar-backdrop" />
+    )}
+    
+    <nav className={containerClassName} style={style} aria-label="Main navigation">
+      {/* ... rest of your nav content remains the same */}
+    </nav>
+    
+    {showOverlay && (
+      <div
+        ref={overlayRef}
+        className={`bubble-menu-items ${useFixedPosition ? 'fixed' : 'absolute'}`}
+        aria-hidden={!isMenuOpen}
+      >
+<ul className="pill-list" role="menu" aria-label="Menu links">
             {menuItems.map((item, idx) => (
               <li key={idx} role="none" className="pill-col">
                 <a
@@ -206,9 +216,9 @@ export default function Navbar({
                 </a>
               </li>
             ))}
-          </ul>
-        </div>
-      )}
+          </ul>      </div>
+    )}
+  </div>
     </div>
   );
 }

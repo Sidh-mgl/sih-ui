@@ -23,7 +23,7 @@ export default function Textabout() {
   }, []);
 
   return (
-    <section className="textabout mt-0 mb-50">
+    <section className="textabout mt-40 mb-50">
       <div className="text-section">
         <div className="mt-30">
           <h1 className=" capitalize">Turn corporate sustainability into a fun, measurable journey</h1>

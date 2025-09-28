@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/f
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer mt-20">
       <div className="footer-container">
 
         {/* Brand Section */}

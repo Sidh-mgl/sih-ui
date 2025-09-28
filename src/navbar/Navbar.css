@@ -1,14 +1,12 @@
 .navbar-backdrop {
   position: fixed;
   inset: 0;
-  z-index: 97; /* Below .bubble-menu-items */
-  background: rgba(23, 23, 23, 0.50); /* Semi-transparent dark */
-  backdrop-filter: blur(8px); 
+  z-index: 97;
+  background: rgba(23, 23, 23, 0.50);
+  backdrop-filter: blur(8px);
   pointer-events: auto;
   transition: background 0.3s;
 }
-
-
 
 
 .bubble-menu {

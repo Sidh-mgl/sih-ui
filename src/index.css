@@ -1,4 +1,7 @@
 @import "tailwindcss";
-*{
-    font-family:  Roboto ,  sans-serif;
+/* src/index.css or src/globals.css */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  font-family:  'Ubuntu', sans-serif;
 }
