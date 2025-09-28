@@ -1,6 +1,6 @@
-import React from "react";
 import { motion } from "framer-motion";
 import "./Hero.css"
+import {Link} from "react-router-dom"
 
 const Hero = () => {
   return (
@@ -10,7 +10,7 @@ const Hero = () => {
         className="absolute top-0 left-0 w-full h-full object-cover"
         src="/earth.webm"
         autoPlay
-      loop
+        loop
         muted
       ></video>
 
@@ -34,21 +34,22 @@ const Hero = () => {
           </p>
           <div className="flex flex-col md:flex-row justify-center gap-8">
 
-            <button class="animated-button">
-              <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+            <Link to="/register" className="animated-button">
+              <svg viewBox="0 0 24 24" className="arr-2" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
                 ></path>
               </svg>
-              <span class="text">Connect Now</span>
-              <span class="circle"></span>
-              <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
-                ></path>
-              </svg>
-            </button>
 
+              <span className="text">Connect Now</span>
+              <span className="circle"></span>
+
+              <svg viewBox="0 0 24 24" className="arr-1" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </Link>
 
 
             <button class="learn-more">

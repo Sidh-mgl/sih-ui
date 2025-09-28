@@ -6,7 +6,7 @@ import './Navbar.css';
 const DEFAULT_ITEMS = [
   {
     label: 'Home',
-    href: '#',
+    href: '/',
     ariaLabel: 'Home',
     rotation: -8,
     hoverStyles: { bgColor: '#3b82f6', textColor: '#ffffff' }
@@ -27,14 +27,14 @@ const DEFAULT_ITEMS = [
   },
   {
     label: 'Login',
-    href: '#',
+    href: '/login',
     ariaLabel: 'Documentation',
     rotation: 8,
     hoverStyles: { bgColor: '#f59e0b', textColor: '#ffffff' }
   },
   {
-    label: 'Sign Up',
-    href: '#',
+    label: 'Register',
+    href: '/register',
     ariaLabel: 'Blog',
     rotation: 8,
     hoverStyles: { bgColor: '#ef4444', textColor: '#ffffff' }

@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './navbar/Navbar'
 // import Cards from './Cards/Cards'
 import Hero from './hero/Hero'
@@ -8,21 +9,30 @@ import "aos/dist/aos.css"; // Import AOS styles
 import Textscroll from './textscroll/Textscroll'
 import ScrollVelocity from './scrollvelocity/velocity';
 import Login from "./components/login/Login"
-
-
+import Signup from "./components/register/Signup";
+import Quiz from "./Quiz/Quiz";
 
 const App = () => {
-
   return (
-    <div>
+    <Router>
       <Navbar className="sticky" />
-      <Hero />
-      <Textscroll />
-      <About />
-      <ScrollVelocity />
-      <Login />
-    </div>
+
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Hero />
+            <Textscroll />
+            <About />
+            <ScrollVelocity />
+            <Quiz />
+          </>
+        } />
+        
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Signup />} />
+      </Routes>
+    </Router>
   )
 }
 
-export default App
+export default App;
